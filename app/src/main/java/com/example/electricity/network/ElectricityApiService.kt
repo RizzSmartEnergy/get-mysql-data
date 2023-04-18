@@ -9,7 +9,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory
 import retrofit2.create
 import retrofit2.http.GET
 
-private val BASE_URL = "https://www.xxxxxxxx.xxx" // diisi dengan web hosting
+private val BASE_URL = "https://www.xxxxxxxx.xxx" // diisi dengan domain web hosting
 
 private val moshi = Moshi.Builder()
     .add(KotlinJsonAdapterFactory())
@@ -21,7 +21,7 @@ private val retrofit = Retrofit.Builder()
     .build()
 
 interface ElectricityApiService {
-    @GET("xxxxxxxx")// diisi dengan file json semisal data.php
+    @GET("get-my-data.php")// diisi dengan file json anda (lihat README.md)
     suspend fun getProperties() : List<ElectricityProperty>
 }
 
