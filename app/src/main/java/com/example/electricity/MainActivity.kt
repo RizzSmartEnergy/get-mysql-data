@@ -18,29 +18,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-       // var fragment : Fragment = null
-//
-//        val fragmentTransaction : FragmentTransaction = supportFragmentManager.beginTransaction()
-//
-//        fragmentTransaction.detach()
-//        fragmentTransaction.attach()
-//        fragmentTransaction.commit()
-
-//        val fragment: OverviewFragment = supportFragmentManager.findFragmentByTag("OverviewFragment") as OverviewFragment
-//
-//        val fragmentTransaction : FragmentTransaction = supportFragmentManager.beginTransaction()
-//        fragmentTransaction.detach(fragment)
-//        fragmentTransaction.attach(fragment)
-//        fragmentTransaction.commit()
-
-//        val fragment = supportFragmentManager.findFragmentById(R.id.navHost) as Fragment
-//
-//
-//        supportFragmentManager.commit {
-//            detach(fragment)
-//            attach(fragment)
-//        }
-
     }
 }
