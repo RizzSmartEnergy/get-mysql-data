@@ -13,8 +13,6 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.example.electricity.overview.OverviewFragment
 
 class MainActivity : AppCompatActivity() {
-
-    @SuppressLint("DetachAndAttachSameFragment")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
