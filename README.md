@@ -1,5 +1,6 @@
 # get-mysql-data
 
+ANDROID STUDIO PROJECTS
 Example for get data from MySQL database (streaming and real-time)  
 
 How to run:  
