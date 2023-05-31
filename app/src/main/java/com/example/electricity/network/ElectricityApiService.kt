@@ -9,7 +9,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory
 import retrofit2.create
 import retrofit2.http.GET
 
-private val BASE_URL = "https://www.xxxxxxxx.xxx" // replace with your domain, example: https://www.rizzsmartenergy.com
+private val BASE_URL = "https://www.xxxxxxx.xxx" // replace with your domain, example: https://www.rizzsmartenergy.com
 
 private val moshi = Moshi.Builder()
     .add(KotlinJsonAdapterFactory())
